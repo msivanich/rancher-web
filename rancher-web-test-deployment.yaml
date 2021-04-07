@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: default
+  namespace: rancher-web
   name: rancher-web-test-deployment
   labels:
     app: rancher-web-test
