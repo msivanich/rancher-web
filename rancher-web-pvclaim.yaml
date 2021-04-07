@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rancher-web-pvclaim
+  namespace: rancher-web
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadOnlyMany
+  - ReadOnlyMany
+  - ReadWriteMany
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 50Gi
+  storageClassName: ""
+  volumeMode: Filesystem
+  volumeName: rancher-web-persistentvolume
+status:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  - ReadWriteMany
+  - ReadOnlyMany
+  - ReadOnlyMany
+  capacity:
+    storage: 50Gi
