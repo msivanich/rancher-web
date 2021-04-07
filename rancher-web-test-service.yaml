@@ -13,4 +13,3 @@ spec:
   selector:
     app: rancher-web-test
   type: ClusterIP
----
