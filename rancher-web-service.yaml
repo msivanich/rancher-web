@@ -5,7 +5,7 @@ metadata:
   name: rancher-web-service
   labels:
     app: rancher-web
-  namespace: default
+  namespace: rancher-web
 spec:
   ports:
   - port: 80

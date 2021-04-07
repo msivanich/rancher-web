@@ -5,7 +5,7 @@ metadata:
   name: rancher-web-test-service
   labels:
     app: rancher-web-test
-  namespace: default
+  namespace: rancher-web
 spec:
   ports:
   - port: 80
