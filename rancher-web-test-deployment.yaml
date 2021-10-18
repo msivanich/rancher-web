@@ -30,7 +30,7 @@ spec:
               topologyKey: kubernetes.io/hostname
             weight: 1
       containers:
-      - image: registry.rmntest.com/private-httpd
+      - image: httpd:2.4
         imagePullPolicy: Always
         name: rancher-web-test
         ports:
